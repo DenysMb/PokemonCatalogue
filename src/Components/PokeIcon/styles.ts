@@ -6,12 +6,14 @@ export const StyledDiv = styled.div`
   align-items: center;
   padding: 20px;
   border-radius: 10px;
+  cursor: pointer;
+  
   &:hover,
   &:active,
   &:focus {
-    background: linear-gradient(to bottom, #6dc7ff, #e6abff);
+    background: rgba(0, 0, 0, 0.15);
     .PokemonId {
-      color: #fff;
+      color: #353f47;
     }
   }
 
