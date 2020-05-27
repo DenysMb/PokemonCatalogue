@@ -13,7 +13,7 @@ export const StyledDiv = styled.div`
     flex-direction: column;
     flex: 1;
     align-items: center;
-    box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
 
     .PokemonList {
       display: flex;
@@ -27,8 +27,8 @@ export const StyledDiv = styled.div`
       margin-top: 20px;
       padding-top: 20px;
       align-items: center;
-      border-top: 1px solid rgba(0,0,0,0.15);
-      
+      border-top: 1px solid rgba(0, 0, 0, 0.15);
+
       .NavigationLink {
         cursor: pointer;
       }
@@ -46,6 +46,12 @@ export const StyledDiv = styled.div`
       font-size: 32px;
       margin: 0px 20px;
       font-family: "DejaVu Sans Condensed";
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .HomeContainer {
+      padding: 10px;
     }
   }
 `;
