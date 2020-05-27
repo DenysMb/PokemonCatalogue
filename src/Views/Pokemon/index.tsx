@@ -55,8 +55,8 @@ const Pokemon = ({ back, data }: Props) => {
             <div className={"TextRow PokemonType"}>
               <span className={"BoldSpan"}>Type:</span>
               <span>
-                {data.general.types.map((d: { type: { name: string } }) => (
-                  <TypeTag type={d.type.name} />
+                {data.general.types.map((d: { type: { name: string } }, i: number) => (
+                  <TypeTag key={`Tag-${d.type.name}-${i + 1}`} type={d.type.name} />
                 ))}
               </span>
             </div>

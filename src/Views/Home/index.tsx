@@ -87,6 +87,7 @@ const Home = () => {
 
                     return (
                       <div
+                        key={`Pokemon-${index + 1}`}
                         onClick={() => {
                           setSelectedPokemon(poke.pokemon);
                         }}
