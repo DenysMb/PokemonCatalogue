@@ -8,6 +8,11 @@ export const StyledDiv = styled.div`
   border-radius: 10px;
   cursor: pointer;
   
+  img {
+    min-width: 96px;
+    min-height: 96px;
+  }
+  
   &:hover,
   &:active,
   &:focus {
