@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { Home, Pokemon } from "../Views";
+import { Home } from "../Views";
 import TopBar from "../Components/TopBar";
 
 export default function () {
@@ -13,9 +13,6 @@ export default function () {
       <TopBar/>
       <Router>
         <Switch>
-          <Route path="/pokemon">
-            <Pokemon/>
-          </Route>
           <Route path="/">
             <Home/>
           </Route>
